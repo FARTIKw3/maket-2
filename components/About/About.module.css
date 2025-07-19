@@ -1,0 +1,41 @@
+.about__content {
+  display: flex;
+  justify-content: center;
+  margin: 100px 0;
+  gap: 130px;
+}
+.about__title {
+  font-size: 32px;
+  color: #403e3b;
+}
+.about__paragraph {
+  color: #403e3b;
+  font-size: 16px;
+  max-width: 500px;
+  margin-top: 10px;
+}
+.about__partner {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-top: 20px;
+}
+.about__partner__avatar {
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+}
+.about__partner__info {
+  display: flex;
+  flex-direction: column;
+}
+.about__partner__name {
+  color: #1b1a1a;
+  font-size: 17px;
+}
+.about__partner__position {
+  color: #645c55;
+  font-size: 14px;
+}
