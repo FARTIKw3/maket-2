@@ -13,11 +13,9 @@
   justify-content: space-between;
   gap: 32px;
   font-size: 16px;
-  font-weight: 400;
 }
 .navbar__btn {
   font-size: 16px;
-  font-weight: 400;
   background-color: #1b1a1a;
   padding: 11px 20px;
   border-radius: 14px;
