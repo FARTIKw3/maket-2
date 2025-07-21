@@ -1,0 +1,30 @@
+.customer {
+  background-color: #403e3b;
+  display: flex;
+  justify-content: center;
+  gap: 250px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.customer__header {
+  max-width: 450px;
+  color: #ece7e4;
+  margin: 85px 0;
+}
+.customer__span {
+  font-size: 14px;
+  margin: 0;
+}
+.customer__title {
+  font-size: 32px;
+  margin: 0;
+}
+.customer__description {
+  font-size: 15px;
+}
+.customer__svg {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 100px;
+}

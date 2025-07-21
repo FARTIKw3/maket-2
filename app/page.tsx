@@ -2,6 +2,7 @@ import { Header } from "@/components/header/Header";
 import { About } from "@/components/About/About";
 import { Interior } from "@/components/Interior/Interior";
 import { Services } from "@/components/Services/Services";
+import { Customers } from "@/components/Customers/Customers";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
         flex="flex-end"
         title="THE MARBLE STAIRCASE"
       />
+      <Customers />
       <Interior
         bgImage={"/Interior3.jpg"}
         flex=""
