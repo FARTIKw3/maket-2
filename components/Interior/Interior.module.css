@@ -1,0 +1,18 @@
+.interior {
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  display: flex;
+  padding-inline: 75px;
+}
+.interior__text {
+  width: 285px;
+}
+.interior__title {
+  font-size: 14px;
+  margin-top: 266px;
+}
+.interior__paragraph {
+  font-size: 16px;
+  color: #645c55;
+}
