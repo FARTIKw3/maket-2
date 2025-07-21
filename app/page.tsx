@@ -1,8 +1,7 @@
-import Image from "next/image";
-import styles from "./page.module.css";
 import { Header } from "@/components/header/Header";
 import { About } from "@/components/About/About";
 import { Interior } from "@/components/Interior/Interior";
+import { Services } from "@/components/Services/Services";
 
 export default function Home() {
   return (
@@ -14,6 +13,7 @@ export default function Home() {
         flex="flex-end"
         title="REEDING HOUSE"
       />
+      <Services />
       <Interior
         bgImage={"/Interior2.jpg"}
         flex="flex-end"
