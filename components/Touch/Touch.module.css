@@ -1,0 +1,26 @@
+.content {
+  background-color: #cec4bc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px 130px;
+}
+.text {
+  max-width: 570px;
+}
+
+.text span {
+  font-size: 14px;
+  line-height: 20px;
+  color: #645c55;
+}
+.text h1 {
+  font-size: 40px;
+  line-height: 42px;
+  color: #1b1b1b;
+}
+
+.btn {
+  font-size: 16px;
+  color: #1b1b1b;
+}

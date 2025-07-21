@@ -1,0 +1,16 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 135px;
+}
+.footer__text {
+  font-size: 14px;
+  color: #645c55;
+  line-height: 20px;
+}
+.footer__social {
+  display: flex;
+  gap: 20px;
+  margin-top: 50px;
+}

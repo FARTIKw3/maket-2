@@ -19,6 +19,13 @@
   background-color: #1b1a1a;
   padding: 11px 20px;
   border-radius: 14px;
-  border: none;
+  border: 1px solid transparent;
+  cursor: pointer;
   color: #fff;
+  transition: 0.5s;
+}
+.navbar__btn:hover {
+  background: none;
+  color: #000;
+  border: 1px solid #1b1a1a;
 }
